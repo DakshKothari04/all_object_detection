@@ -1,0 +1,13 @@
+train: "C:/others/phone_while_driving/train/images"
+val: "C:/others/phone_while_driving/valid/images"
+test: C:/others/phone_while_driving/test/images
+
+nc: 3
+names: ['driver', 'phone', 'wheel']
+
+roboflow:
+  workspace: pruebadeteccioncelulareschoferes
+  project: cellphone-detector-drivers-ma3vx
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pruebadeteccioncelulareschoferes/cellphone-detector-drivers-ma3vx/dataset/2

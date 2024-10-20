@@ -1,0 +1,13 @@
+train: C:/others/spitting_detection/train/images  
+val: C:/others/spitting_detection/valid/images
+test: C:/others/spitting_detection/test/images
+
+nc: 2
+names: ['Spitting', 'Spitting-adR8']
+
+roboflow:
+  workspace: majorproject-6wuez
+  project: spittingdetection
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/majorproject-6wuez/spittingdetection/dataset/2

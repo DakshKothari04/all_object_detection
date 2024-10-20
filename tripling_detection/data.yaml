@@ -1,0 +1,13 @@
+train: C:\others\tripling_detection\train\images
+val: C:\others\tripling_detection\valid\images
+test: C:\others\tripling_detection\test\images
+
+nc: 2
+names: ['non-offender', 'offender']
+
+roboflow:
+  workspace: traffic-signal-violation-detection
+  project: tripling-detection-q0goq
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/traffic-signal-violation-detection/tripling-detection-q0goq/dataset/2

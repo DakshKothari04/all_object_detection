@@ -1,0 +1,6 @@
+python==3.8.10
+opencv-python==4.7.0.72
+numpy==1.23.0
+keras==2.12.0
+pygame==2.4.0
+pickle==0.7.5
